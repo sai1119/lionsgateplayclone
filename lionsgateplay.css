@@ -1,0 +1,109 @@
+body{
+    background-color: #021214;
+
+}
+header{
+    position: fixed;
+    background-color: #021214;
+    z-index: 1;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: red;
+    height: 50px;
+    padding-top: 20px;
+}
+header div{
+    padding-right: 30px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+.header1 div{
+    padding-left: 30px;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 500px;
+    }
+
+.header2 div{
+    padding-left: 30px;
+}
+.section1{
+    width: 100%;
+    /* background-color: aqua; */
+    overflow: hidden;
+
+}
+#slidediv{
+    display: flex;
+    animation: slide 20s infinite;
+}
+.box{
+    position: relative;
+    margin: 10px;
+    width: 200px;
+}
+.box img{
+    width: 200px;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+.section2,.section4{
+    width: 100%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    animation: slider1 20s infinite;
+}
+@keyframes slider1 {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+.section3{
+    width: 100%;
+    overflow: hidden;
+}
+.box1 img{
+    width:500px;
+    padding: 20px;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.f1{
+    display: flex;
+}
+.f1 div{
+    padding-top: 40px;
+    padding: 20px;
+    color: white;
+    border-right: 2px solid white;
+}
+.f2 {
+    color: white;
+}
